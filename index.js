@@ -7,6 +7,7 @@ function create_zip() {
     'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&web=1&e=wrucuT',
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf',
     'https://dtecho365.sharepoint.com/sites/ServiceNowDev1/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FServiceNowDev1%2FDev1Lib2%2Fb3%2Epdf',
+    'https://dtecho365.sharepoint.com//_layouts/15/download.aspx?SourceUrl=%2FShared%20Documents%2Fchange%5Faddress%5Fcontact%5Fdetails%5Femail%5Fid%2Epdf'
   ];
 
   var count = 0;
