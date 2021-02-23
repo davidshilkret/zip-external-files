@@ -2,8 +2,8 @@ function create_zip() {
   var zip = new JSZip();
   var zipFilename = "super-legit.zip";
   var urls = [
-    'https://s3.amazonaws.com/limbforge/EbeArm/Ebe_forearm_L/forearm_L_C4-200_L1-220.stl',
-    'https://s3-us-west-2.amazonaws.com/test-dcc67e4a-9949-42c3-9609-666e4dd87e48/disco.stl',
+    //'https://s3.amazonaws.com/limbforge/EbeArm/Ebe_forearm_L/forearm_L_C4-200_L1-220.stl',
+    //'https://s3-us-west-2.amazonaws.com/test-dcc67e4a-9949-42c3-9609-666e4dd87e48/disco.stl',
     'https://dtecho365.sharepoint.com/sites/Demo01/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FDemo01%2Fdemo02lib%2Fapplication%2Epdf',
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf'
   ];
