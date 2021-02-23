@@ -6,6 +6,7 @@ function create_zip() {
     //'https://s3-us-west-2.amazonaws.com/test-dcc67e4a-9949-42c3-9609-666e4dd87e48/disco.stl',
     'https://dtecho365.sharepoint.com/sites/Demo01/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FDemo01%2Fdemo02lib%2Fapplication%2Epdf',
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf',
+    'https://dtecho365.sharepoint.com/sites/ServiceNowDev1/Dev1Lib2/Forms/AllItems.aspx?viewpath=%2Fsites%2FServiceNowDev1%2FDev1Lib2%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FServiceNowDev1%2FDev1Lib2%2Fb3%2Epdf&parent=%2Fsites%2FServiceNowDev1%2FDev1Lib2'
   ];
 
   var count = 0;
