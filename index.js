@@ -20,10 +20,12 @@ function create_zip() {
   ];
 
   var count = 0;
+
   // We're asynchronously asking for all of the files
   // We increment the count once each file is completely downloaded
   // Once the last file is downloaded (aka count == urls.length) then zip it and download it
   urls.forEach(function (url) {
+    alert(url);
     // Grab the filename from the url
     // For example if the url is http://google.com/awesome/foo.stl
     // We set filename = foo.stl
