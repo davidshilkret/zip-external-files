@@ -14,9 +14,7 @@ function create_zip() {
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf'
+    
 
 
   ];
