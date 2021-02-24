@@ -5,15 +5,15 @@ function create_zip() {
     "https://s3.amazonaws.com/limbforge/EbeArm/Ebe_forearm_L/forearm_L_C4-200_L1-220.stl",  //works
     'https://s3-us-west-2.amazonaws.com/test-dcc67e4a-9949-42c3-9609-666e4dd87e48/disco.stl', //works
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf', //works
-    //"https://dtecho365.sharepoint.com/sites/Demo01/_api/Web/Lists(guid'09adb51e-b024-4c20-87ca-ebc3f31fa95a')/Items(1246)",
-    'https://dtecho365.sharepoint.com/:w:/r/sites/ServiceNowQA1/_layouts/15/Doc.aspx?sourcedoc=%7Bab3310c5-2bdb-4d68-9cdb-f0f630265add%7D',
-    'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&web=1&e=wrucuT',
-    'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&download=1&e=wrucuT',
-    "https://dtecho365.sharepoint.com/sites/ServiceNowDev1/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FServiceN",
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf', //works
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
-    'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
+    "https://dtecho365.sharepoint.com/sites/Demo01/_api/Web/Lists(guid'09adb51e-b024-4c20-87ca-ebc3f31fa95a')/Items(1246)",
+    // 'https://dtecho365.sharepoint.com/:w:/r/sites/ServiceNowQA1/_layouts/15/Doc.aspx?sourcedoc=%7Bab3310c5-2bdb-4d68-9cdb-f0f630265add%7D',
+    // 'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&web=1&e=wrucuT',
+    // 'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&download=1&e=wrucuT',
+    // "https://dtecho365.sharepoint.com/sites/ServiceNowDev1/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FServiceN",
+    // 'https://www.irs.gov/pub/irs-pdf/fw4.pdf', //works
+    // 'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
+    // 'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
+    // 'https://www.irs.gov/pub/irs-pdf/fw4.pdf', 
     
 
 
@@ -37,7 +37,8 @@ function create_zip() {
     // aka if it is a text file or an ascii stl model
     JSZipUtils.getBinaryContent(url, function (err, data) {
       if(err) {
-        alert(err);
+        alert(JSON.stringify(err));
+        alert(data);
         // Probably should do something better here...
         // For example if the file server is down, provide some kind of info to the user
         throw err;
