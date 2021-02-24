@@ -4,6 +4,7 @@ function create_zip() {
   var urls = [
     'https://s3.amazonaws.com/limbforge/EbeArm/Ebe_forearm_L/forearm_L_C4-200_L1-220.stl',
     'https://s3-us-west-2.amazonaws.com/test-dcc67e4a-9949-42c3-9609-666e4dd87e48/disco.stl',
+    'https://dtecho365.sharepoint.com/:w:/r/sites/ServiceNowQA1/_layouts/15/Doc.aspx?sourcedoc=%7Bab3310c5-2bdb-4d68-9cdb-f0f630265add%7D',
     'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&web=1&e=wrucuT',
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf',
     'https://dtecho365.sharepoint.com/sites/ServiceNowDev1/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FServiceNowDev1%2FDev1Lib2%2Fb3%2Epdf',
