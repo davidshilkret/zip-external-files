@@ -40,8 +40,6 @@ function create_zip() {
     localStorage.setItem(key, obj);
     JSZipUtils.getBinaryContent(url, function (err, data) {
       if(err) {
-        //alert(err);
-        
         // Probably should do something better here...
         // For example if the file server is down, provide some kind of info to the user
         throw err;
