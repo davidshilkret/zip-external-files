@@ -37,7 +37,7 @@ function create_zip() {
     // aka if it is a text file or an ascii stl model
     JSZipUtils.getBinaryContent(url, function (err, data) {
       if(err) {
-        alert(JSON.stringify(err));
+        alert(err);
         alert(data);
         // Probably should do something better here...
         // For example if the file server is down, provide some kind of info to the user
