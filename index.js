@@ -7,6 +7,7 @@ function create_zip() {
     'https://dtecho365.sharepoint.com/:w:/r/sites/ServiceNowQA1/_layouts/15/Doc.aspx?sourcedoc=%7Bab3310c5-2bdb-4d68-9cdb-f0f630265add%7D',
     'https://dtecho365.sharepoint.com/:b:/r/sites/Demo01/demo02lib/application.pdf?csf=1&web=1&e=wrucuT',
     'https://www.irs.gov/pub/irs-pdf/fw4.pdf',
+    "https://dtecho365.sharepoint.com/sites/Demo01/_api/Web/Lists(guid'09adb51e-b024-4c20-87ca-ebc3f31fa95a')/Items(1246)",
     'https://dtecho365.sharepoint.com/sites/ServiceNowDev1/_layouts/15/download.aspx?SourceUrl=%2Fsites%2FServiceNowDev1%2FDev1Lib2%2Fb3%2Epdf',
     'https://dtecho365.sharepoint.com//_layouts/15/download.aspx?SourceUrl=%2FShared%20Documents%2Fchange%5Faddress%5Fcontact%5Fdetails%5Femail%5Fid%2Epdf'
   ];
