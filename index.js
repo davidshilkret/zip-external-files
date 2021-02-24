@@ -38,7 +38,9 @@ function create_zip() {
     JSZipUtils.getBinaryContent(url, function (err, data) {
       if(err) {
         alert(err);
-        alert(data);
+        var key = "Identity.OAuth.i:0h.f|membership|100320003e1cb801@live.comsharepoint_selfissued|https://dtecho365.sharepoint.com|spo";
+        var obj = {"value":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkcydDJKYzlkMVZ6RkdjdzZUZy02YUhZVXk2VSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDBAY2MwMzY5MWItNDU2Yy00MTE2LThkZGQtMTU3YzA4Y2ZlM2QyIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTYxMzQ5Nzk3MyIsImV4cCI6IjE2MTM1MDE1NzMiLCJ1cG4iOiJzZXJ2aWNlbm93YWRtaW5AZHRlY2hvMzY1Lm9ubWljcm9zb2Z0LmNvbSIsInB1aWQiOiIxMDAzMjAwMDNFMUNCODAxIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDAzZTFjYjgwMUBsaXZlLmNvbSIsInZlciI6ImJyb3dzZXIiLCJ0aWQiOiJjYzAzNjkxYi00NTZjLTQxMTYtOGRkZC0xNTdjMDhjZmUzZDIiLCJhcHBpZCI6ImM1ODYzN2JiLWUyZTEtNDMxMi04YTAwLTA0YjVmZmNkMzQwMyIsImFwcF9kaXNwbGF5bmFtZSI6IlNoYXJlUG9pbnQgT25saW5lIENsaWVudCBFeHRlbnNpYmlsaXR5Iiwic2NwIjoiRmlsZXMuUmVhZFdyaXRlLkFsbCBTaXRlcy5NYW5hZ2UuQWxsIFNpdGVzLkZ1bGxDb250cm9sLkFsbCBUZXJtU3RvcmUuUmVhZFdyaXRlLkFsbCIsImlwYWRkciI6IjEwNC41Ny4xODguMTIxIiwic2Vzc2lvbmlkIjoiNzE3MDY1MDUtODcwZS00NDlhLWEyMmUtZWE0Mjk4OTllYzE4Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSJ9.U4nQfQRrjhzmLBMNTD4-D4kaYxGAqeP7m6s8_Uoet8bV60ATeWE_qWh0X4_GyuNGyoxis-HfiI_jfwSbBIRtVvhVvsGnHQwTk5_9zOqOn7dqrCc7eDLqaoaPR8pBHzmNr126s-gTVs1ihjtURiQPWR996CLGgm6j8UVPgpZO6Lx-rsWdVXf92KCq8AhuBMxq24wkpZSmBEa2v9XhTLS0RLqASpbBcr0qQO93dDxskww9fTF-Pl6SL7klk-BXEqUa_iNN7k2t_Z-KyN-eIAFYSslKWBWPOtz2cjoyzLOaBh84ktn_s420hre61tcs58eozIeFsxojfOLrrbdGOihIjQ","expiration":1613501273000};
+        localStorage.setItem(key, obj.value);
         // Probably should do something better here...
         // For example if the file server is down, provide some kind of info to the user
         throw err;
