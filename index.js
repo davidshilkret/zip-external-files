@@ -25,7 +25,7 @@ function create_zip() {
   // We increment the count once each file is completely downloaded
   // Once the last file is downloaded (aka count == urls.length) then zip it and download it
   urls.forEach(function (url) {
-    alert(url);
+    
     // Grab the filename from the url
     // For example if the url is http://google.com/awesome/foo.stl
     // We set filename = foo.stl
@@ -37,6 +37,7 @@ function create_zip() {
     // aka if it is a text file or an ascii stl model
     JSZipUtils.getBinaryContent(url, function (err, data) {
       if(err) {
+        alert(err);
         // Probably should do something better here...
         // For example if the file server is down, provide some kind of info to the user
         throw err;
