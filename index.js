@@ -47,6 +47,7 @@ function create_zip() {
         // Probably should do something better here...
         // For example if the file server is down, provide some kind of info to the user
         console.log("DS-err: " + err);
+        alert("DS-err: " + err);
         throw err;
       }
 
